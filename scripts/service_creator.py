@@ -23,7 +23,6 @@ def create_microservice(service_name: str, project_name: str = "eduscheduler_bac
         f'{project_name}/{service_name}/app/__init__.py',
         f'{project_name}/{service_name}/tests/test_main.py',
         f'{project_name}/{service_name}/Dockerfile',
-        f'{project_name}/{service_name}/requirements.txt',
         f'{project_name}/{service_name}/README.md',
         f'{project_name}/{service_name}/__init__.py',
     ]
